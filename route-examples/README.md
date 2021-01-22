@@ -2,7 +2,16 @@
 
 ## Project setup
 ```
-npm install
+npm install vue-router
+```
+
+When used with a module system, you must explicitly install the router via Vue.use():
+
+```
+import Vue from 'vue'
+import VueRouter from 'vue-router'
+
+Vue.use(VueRouter)
 ```
 
 ### Compiles and hot-reloads for development
